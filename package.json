@@ -8,6 +8,7 @@
     "git-commit-msg-linter": "^2.4.2"
   },
   "devDependencies": {
+    "@types/jest": "^25.1.5",
     "@types/node": "^13.11.0",
     "@typescript-eslint/eslint-plugin": "2",
     "eslint": "6",
@@ -16,6 +17,12 @@
     "eslint-plugin-node": "11",
     "eslint-plugin-promise": "4",
     "eslint-plugin-standard": "4",
+    "husky": "^4.2.3",
+    "jest": "^25.2.7",
+    "ts-jest": "^25.3.0",
     "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
